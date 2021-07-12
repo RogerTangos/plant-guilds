@@ -6,8 +6,11 @@ Install pip, the python package manager if you haven't already:
 Unix/MacOX: `python get-pip.py`
 Windows: `py get-pip.py`
 
-Install jupyterlab if you haven't already:
-`pip install jupyterlab`
+Install requirements:
+`python -m pip install -r requirements.txt`
+
+Install spacy nlp english library
+`python -m spacy download en_core_web_sm`
 
 Open jupyter lab in the same directory as this readme:
 `jupyter-lab`
